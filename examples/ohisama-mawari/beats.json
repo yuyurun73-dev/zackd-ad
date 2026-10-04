@@ -1,0 +1,114 @@
+{
+ "style": "High-end 3D animated feature film frame, Pixar-like, vertical 9:16 portrait (tall). ENVIRONMENT: exactly the deep royal-blue studio stage of the attached reference image (thin lighter-blue grid on the glossy floor and curved back wall, darker navy edges, soft spotlight pool). CHARACTERS: the mother and her toddler son must match the attached reference exactly (same faces, hair, clothes: mother in cream cardigan, white tee, beige wide pants; boy with black bowl cut, mustard t-shirt, navy shorts). Every child in the image is fully clothed in t-shirt and shorts or a dress. Absolutely no text, letters, numbers, captions, watermarks or logos anywhere. Keep the main subject in the upper two thirds; the lower third stays simple (captions go there in the edit). Absurd, playful, oversized props like a viral 3D explainer short.",
+ "refs": [
+  "stage-cast.png"
+ ],
+ "product_ref": "product.jpg",
+ "product_note": "The training pants must match the attached product photo exactly: white and light-blue horizontal stripes with yellow cartoon lion faces and small green palm trees, elastic waistband.",
+ "beats": {
+  "b01": {
+   "scene": "Wide shot. Far in the back, at the top of a short glowing staircase, stands a giant golden child's potty chair like a throne, shining. Five happy toddlers of the same age run up the stairs toward it cheering, seen from behind. In the foreground the mother stands biting her thumbnail with a worried face, holding her son's hand; he looks up at her, left behind.",
+   "product": false
+  },
+  "b02": {
+   "scene": "The mother kneels and hugs her son protectively. Behind them a giant silver stopwatch taller than her is cracking apart with a big glossy red 3D X mark on its face, pieces falling. Warm rim light on the pair.",
+   "product": false
+  },
+  "b03": {
+   "scene": "A small playground set on the stage: a sandbox and a little slide. A same-age toddler girl in a yellow dress dashes away to the right with her arm raised, motion lines of dust. The mother's son sits in the sandbox holding a toy shovel, watching her go. The mother stands behind him, mouth slightly open, surprised.",
+   "product": false
+  },
+  "b04": {
+   "scene": "A giant smartphone stands upright on the stage, three times taller than the mother, its screen showing two large completely blank white chat bubbles. Party poppers and colourful confetti burst out of the screen. The tiny mother stands in front looking up at it, shoulders slumped.",
+   "product": false
+  },
+  "b05": {
+   "scene": "The mother stands on the left looking up at a huge blank dark-blue scoreboard panel with a golden frame that fills the upper centre of the image (the panel is completely empty, nothing on it). A kindergarten gate arch stands at the right. She holds her son's hand.",
+   "product": false
+  },
+  "b06a": {
+   "scene": "The toddler son sits alone on the floor in a single bright spotlight, hugging his knees, looking small. Far behind in the dark, silhouettes of other toddlers jump and play. The mother crouches beside him with a hand on his back, worried.",
+   "product": false
+  },
+  "b06b": {
+   "scene": "Medium close-up. The toddler son shrugs with both palms up, shaking his head innocently, honest wide eyes. A large translucent glass question mark with a soft glow floats above him. The mother's face leans in from the left edge, eyebrows raised.",
+   "product": false
+  },
+  "b07": {
+   "scene": "Evening mood, warmer dim light on the same stage. The mother walks pushing a stroller with her son in it, shoulders bent, because a huge heavy grey stone speech bubble (blank, no text) floats pressing down just above her head. Long shadow on the floor.",
+   "product": false
+  },
+  "b08": {
+   "scene": "The mother stands pointing up at a giant plain white disposable paper diaper displayed on a round pedestal under a spotlight like a museum exhibit, with a big glossy golden question mark floating above it. Her son stands beside her looking up.",
+   "product": false
+  },
+  "b09a": {
+   "scene": "Inside a giant cutaway of a diaper: a landscape of huge translucent absorbent gel beads like boulders under a white fabric ceiling. Big pale-yellow droplets fall from above and are sucked down into the swelling beads with glowing downward arrows. The tiny mother, shrunk to bead size, stands on a bead looking up in amazement.",
+   "product": false
+  },
+  "b09b": {
+   "scene": "Macro view of the diaper's white top sheet as a wide dry soft field, sparkling clean, with yellow gel locked far below it in cross-section. The tiny shrunken mother kneels on the surface touching it with her palm, puzzled that it is completely dry; little sparkle glints.",
+   "product": false
+  },
+  "b09c": {
+   "scene": "The toddler son happily stacks colourful wooden blocks, completely unaware. A glowing yellow wavy signal line travels toward his head but shatters into sparks against a floating glossy red 3D X mark. The mother stands behind with her arms open in a 'so that's why' gesture.",
+   "product": false
+  },
+  "b10": {
+   "scene": "A clothesline stretched across the stage with a row of small thin plain white cotton children's underpants hanging on wooden pegs, each with a shiny gold star above it. Two other smiling Japanese mothers stand under it. Our mother stands in front looking up at the line, a light bulb glowing above her head.",
+   "product": false
+  },
+  "b11": {
+   "scene": "A huge pale-yellow puddle floods across the blue grid floor with ripples. The mother stands in it holding a mop, face red with anger, cartoon steam puffing from her head. Her son stands at the puddle's edge looking down, sorry.",
+   "product": false
+  },
+  "b12a": {
+   "scene": "Five different cheerful Japanese mothers stand in a semicircle seen from behind and the side, all pointing and reaching toward a tall round pedestal in the centre that is covered by a glowing golden cloth with light rays bursting from beneath. Our mother stands at the front edge, curious.",
+   "product": false
+  },
+  "b12b": {
+   "scene": "A single pair of children's training pants floats above a round golden pedestal in the centre with a warm sun-like glow and light rays. Around the pedestal five cheerful Japanese mothers clap and cheer; our mother stands closest, hands together, delighted.",
+   "product": true
+  },
+  "b13a": {
+   "scene": "Exploded 3D diagram: a square swatch of training pants fabric separated into three large floating layers stacked with clear gaps. The TOP layer (soft white cotton) glows with an outline and a pale yellow droplet rests on it, staying wet. The tiny mother stands on a floating step beside it pointing at the droplet like a presenter.",
+   "product": true
+  },
+  "b13b": {
+   "scene": "Exploded three-layer fabric diagram seen from a lower side angle: the MIDDLE thick quilted layer holds pale yellow liquid inside it and the BOTTOM lion-print layer glows like a shield with droplets stopping at it. Below, the blue grid floor is perfectly dry with a glossy green 3D check mark. The tiny mother stands beside it giving a thumbs up.",
+   "product": true
+  },
+  "b14": {
+   "scene": "The toddler son runs joyfully toward the mother with one arm raised, mouth open calling out, a glowing yellow spark above his head. The mother crouches with open arms and a delighted surprised smile. Golden confetti in the air.",
+   "product": false
+  },
+  "b15": {
+   "scene": "A kindergarten entrance ceremony on the stage: an arch of pink cherry blossoms, petals falling. A row of four toddlers in navy kindergarten smocks and yellow hats stand proudly, each with a gold star above the head. At the end of the row stands the son with a small plain white diaper floating above his head instead of a star. The mother covers her face with one hand.",
+   "product": false
+  },
+  "b16": {
+   "scene": "Two pairs of children's training pants, one small and one slightly larger, float side by side with two big glossy green circular exchange arrows looping between them. A large blank white desk calendar page (completely empty) stands at the left. The mother stands at the right giving a relieved thumbs up.",
+   "product": true
+  },
+  "b17a": {
+   "scene": "A warehouse doorway on the stage with a conveyor belt; dozens of brown cardboard parcels fly out of it through the air in an arc toward the camera. Several mothers' hands reach up from the bottom edge to catch them. Our mother stands at the side, eyes wide.",
+   "product": false
+  },
+  "b17b": {
+   "scene": "A tall wooden retail shelf on the stage, almost empty: only one small neat stack of folded training pants remains on the middle shelf under a dramatic spotlight. The mother reaches toward it urgently from the right.",
+   "product": true
+  },
+  "b18a": {
+   "scene": "A fork in the road painted on the blue grid floor. The LEFT path is grey and gloomy, leading to a heavy grey stone speech bubble (blank) and scattered blank calendar pages. The RIGHT path glows golden, leading up to the giant golden potty throne shining in the distance. The mother and son stand at the fork seen from behind, holding hands.",
+   "product": false
+  },
+  "b18b": {
+   "scene": "Heroic low angle. The mother stands tall holding one folded pair of training pants high above her head with one hand like a trophy, golden light rays bursting behind it. Her son stands beside her cheering with both fists up.",
+   "product": true
+  },
+  "b19": {
+   "scene": "The mother and her son stand together in the upper third of the frame smiling and waving at the camera, next to a round golden pedestal on which a pair of training pants is displayed. Far below them, near the bottom of the frame at about four fifths of the height, a big glossy yellow 3D arrow points straight down. The area between the characters' feet and the arrow is empty blue floor.",
+   "product": true
+  }
+ }
+}
