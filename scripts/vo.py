@@ -29,11 +29,16 @@ for i in range(1, a.takes + 1):
     out = f"{vo}/take{i}.mp3"
     if os.path.exists(out):
         continue
-    req = urllib.request.Request(
-        f"https://api.elevenlabs.io/v1/text-to-speech/{a.voice}?output_format=mp3_44100_192",
-        data=json.dumps({"text": script, "model_id": a.model, "language_code": a.lang}).encode(),
-        headers={"xi-api-key": key, "Content-Type": "application/json"})
-    open(out, "wb").write(urllib.request.urlopen(req, timeout=300).read())
+    # 2分を超える音声は数MBになり、プロキシ越しの urllib だと途中で切れる。curl で取り、成功してから名前を付ける
+    body = f"{vo}/body.json"
+    json.dump({"text": script, "model_id": a.model, "language_code": a.lang}, open(body, "w"), ensure_ascii=False)
+    r = subprocess.run(["curl", "-sS", "--fail", "--retry", "2", "-m", "600", "-o", out + ".part", "-X", "POST",
+                        f"https://api.elevenlabs.io/v1/text-to-speech/{a.voice}?output_format=mp3_44100_192",
+                        "-H", f"xi-api-key: {key}", "-H", "Content-Type: application/json", "--data-binary", f"@{body}"],
+                       capture_output=True, text=True)
+    if r.returncode != 0:
+        sys.exit(f"ElevenLabs の生成に失敗: {r.stderr.strip()}")
+    os.replace(out + ".part", out)
     print("recorded", out)
 
 def whisper(path, words=False):
